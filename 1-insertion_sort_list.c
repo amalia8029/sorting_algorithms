@@ -3,12 +3,12 @@
 /**
  * swap - swap 2 nodes in a doubly-linked list
  * @a: address of the first node
- * @b: address of second node 
+ * @b: address of second node
  *
  * Return:void
  */
 
-void swap (listint_t *a. listint_t *b)
+void swap(listint_t *a, listint_t *b)
 {
 	if (a->prev)
 		a->prev->next = b;
@@ -31,7 +31,7 @@ void swap (listint_t *a. listint_t *b)
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *i, *j;
-	
+
 	if (list == NULL || *list == NULL || (*list)->next == NULL)
 		return;
 	i = (*list)->next;
@@ -43,7 +43,7 @@ void insertion_sort_list(listint_t **list)
 		{
 			if (j->prev->n > j->n)
 			{
-				swap(j->prev,j);
+				swap(j->prev, j);
 				if (!j->prev)
 					*list = j;
 				print-list((const listint_t *)*list);
