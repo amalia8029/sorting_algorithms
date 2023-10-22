@@ -1,11 +1,12 @@
-#ifndef <SORT_H>
-#define <SORT_H>
+#ifndef SORT_H
+#define SORT_H
 
-// include libraries
+/* include libraries*/
 #include <stdio.h>
-#include <stlib.h>
+#include <stdlib.h>
+#include <stddef.h>
 
-// structs and definitions
+/* structs and definitions*/
 /**
  * struct listint_s - Doubly linked list node
  *
