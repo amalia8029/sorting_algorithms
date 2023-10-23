@@ -22,7 +22,7 @@ typedef struct listint_s
 } listint_t;
 
 /*Helper for swapping*/
-void swap_ints(int *a,int *b);
+void swap_ints(int *a, int *b);
 
 /* FUNCTION PROTOTYPES */
 /* function to print array of integers */
