@@ -57,5 +57,7 @@ void counting_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
 int digit_counting(int *array, size_t size);
 int divider_set(int current_digit);
+/*function to sort array of integers with merge sort*/
+void merge_sort(int *array, size_t size);
 
 #endif
