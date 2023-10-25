@@ -1,9 +1,5 @@
 #include "sort.h"
 
-unsigned int knuth_set(size_t size);
-unsigned int knuth_reset(unsigned int previous);
-void sorting_back(int **array, int i, int gap);
-
 /**
  * shell_sort - sorts an array of integers using shell sort
  * array is sorted in ascending order

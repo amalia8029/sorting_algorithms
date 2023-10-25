@@ -59,5 +59,8 @@ int digit_counting(int *array, size_t size);
 int divider_set(int current_digit);
 /*function to sort array of integers with merge sort*/
 void merge_sort(int *array, size_t size);
+unsigned int knuth_set(size_t size);
+unsigned int knuth_reset(unsigned int previous);
+void sorting_back(int **array, int i, int gap);
 
 #endif
